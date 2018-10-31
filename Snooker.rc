@@ -1,0 +1,582 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Snooker.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TRIANGLES_DIALOG DIALOGEX 0, 0, 269, 143
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Edytor trójk¹tów"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_TRIANGLE_BX,29,61,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRIANGLE_CX,29,77,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRIANGLE_AX,29,45,39,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRIANGLE_AY,89,45,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRIANGLE_BY,89,61,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRIANGLE_CY,89,77,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRIANGLE_AZ,149,45,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRIANGLE_BZ,149,61,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRIANGLE_CZ,149,77,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "Trójk¹t:",IDC_TRIANGLE_STATIC,7,24,255,95
+    LTEXT           "Y:",IDC_STATIC,107,34,8,8
+    LTEXT           "Z:",IDC_STATIC,166,34,8,8
+    LTEXT           "X:",IDC_STATIC,47,34,8,8
+    LTEXT           "B:",IDC_STATIC,17,64,8,8
+    LTEXT           "C:",IDC_STATIC,17,80,8,8
+    LTEXT           "A:",IDC_STATIC,17,48,8,8
+    CONTROL         "",IDC_TRIANGLE_AX_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    69,45,11,14
+    CONTROL         "",IDC_TRIANGLE_BX_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    69,61,11,14
+    CONTROL         "",IDC_TRIANGLE_CX_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    69,77,11,14
+    CONTROL         "",IDC_TRIANGLE_AY_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    129,45,11,14
+    CONTROL         "",IDC_TRIANGLE_BY_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    129,61,11,14
+    CONTROL         "",IDC_TRIANGLE_CY_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    129,77,11,14
+    CONTROL         "",IDC_TRIANGLE_AZ_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    189,45,11,14
+    CONTROL         "",IDC_TRIANGLE_BZ_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    189,61,11,14
+    CONTROL         "",IDC_TRIANGLE_CZ_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    189,77,11,14
+    CONTROL         "Do³ek",IDC_TRIANGLE_HOLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,209,63,34,10
+    PUSHBUTTON      "-",IDC_TRIANGLE_DELETE,241,7,20,14
+    PUSHBUTTON      "+",IDC_TRIANGLE_ADD,219,7,20,14
+    COMBOBOX        IDC_TRIANGLES,32,8,159,64,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Odbijaj¹cy",IDC_TRIANGLE_REFLECT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,209,79,48,10
+    CONTROL         "Renderuj stó³",IDC_RENDER_TABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,126,59,10
+    CONTROL         "Renderuj trójk¹ty",IDC_RENDER_TRIANGLES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,72,126,73,10
+    CONTROL         "Renderuj aktywny",IDC_RENDER_TRIANGLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,150,126,75,10
+    LTEXT           "Nazwa:",IDC_STATIC,209,34,25,8
+    EDITTEXT        IDC_TRIANGLE_NAME,209,45,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "<-",IDC_TRIANGLE_PREVIOUS,7,7,20,14
+    PUSHBUTTON      "->",IDC_TRIANGLE_NEXT,195,7,20,14
+    LTEXT           "N:",IDC_STATIC,17,96,8,8
+    EDITTEXT        IDC_TRIANGLE_NX,29,93,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_TRIANGLE_NY,89,93,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_TRIANGLE_NZ,149,93,40,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    CONTROL         "",IDC_TRIANGLE_N_SPIN,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,201,94,20,11
+END
+
+IDD_MENU_DIALOG DIALOGEX 0, 0, 100, 151
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Nowa gra",IDC_NEW_GAME,7,7,86,14
+    PUSHBUTTON      "Trening",IDC_TRENNING,7,24,86,14
+    PUSHBUTTON      "Wczytaj grê...",IDC_LOAD_GAME,7,42,86,14
+    PUSHBUTTON      "Zapisz grê...",IDC_SAVE_GAME,7,59,86,14
+    PUSHBUTTON      "O programie...",IDC_ABOUT,7,77,86,14
+    PUSHBUTTON      "Zakoñcz",IDC_EXIT,7,130,86,14
+    PUSHBUTTON      "Pomoc",IDC_HELPBTN,7,95,86,14
+    PUSHBUTTON      "Powrót do gry",IDC_RETURN,7,112,86,14
+END
+
+IDD_NEW_GAME_DIALOG DIALOGEX 0, 0, 175, 65
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,35,44,50,14
+    PUSHBUTTON      "Anuluj",IDCANCEL,89,44,50,14
+    LTEXT           "Gracz 1:",IDC_STATIC,7,10,28,8
+    LTEXT           "Gracz 2:",IDC_STATIC,7,27,28,8
+    EDITTEXT        IDC_PLAYER1,36,7,132,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PLAYER2,36,24,130,14,ES_AUTOHSCROLL
+END
+
+IDD_BALLS_DIALOG DIALOGEX 0, 0, 269, 150
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Edytor bil"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "-",IDC_BALL_DELETE,241,7,20,14
+    PUSHBUTTON      "+",IDC_BALL_ADD,220,7,20,14
+    GROUPBOX        "Bila:",IDC_STATIC,7,22,255,120
+    LTEXT           "Punkty:",IDC_STATIC,17,33,26,8
+    LTEXT           "Promieñ:",IDC_STATIC,73,33,29,8
+    EDITTEXT        IDC_BALL_SCORE,15,41,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BALL_RAY,71,41,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BALL_MASS,127,41,40,14,ES_AUTOHSCROLL
+    LTEXT           "Masa:",IDC_STATIC,129,33,20,8
+    EDITTEXT        IDC_BALL_COLOR0,15,80,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BALL_COLOR1,71,80,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BALL_COLOR2,127,80,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BALL_COLOR3,183,80,40,14,ES_AUTOHSCROLL
+    LTEXT           "Czerwony:",IDC_STATIC,17,72,36,8
+    LTEXT           "Zielony:",IDC_STATIC,73,72,28,8
+    LTEXT           "Niebieski:",IDC_STATIC,129,72,31,8
+    LTEXT           "PrzeŸroczystoœæ:",IDC_STATIC,185,72,53,8
+    CONTROL         "",IDC_BALL_COLOR0_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    55,80,11,14
+    CONTROL         "",IDC_BALL_COLOR1_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    111,80,11,14
+    CONTROL         "",IDC_BALL_COLOR2_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    167,80,11,14
+    CONTROL         "",IDC_BALL_COLOR3_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    225,80,11,14
+    EDITTEXT        IDC_BALL_POSITIONX,15,119,39,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BALL_POSITIONY,71,119,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BALL_POSITIONZ,127,119,40,14,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,73,111,8,8
+    LTEXT           "Z:",IDC_STATIC,129,111,8,8
+    LTEXT           "X:",IDC_STATIC,17,111,8,8
+    CONTROL         "",IDC_BALL_POSITIONX_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,55,119,11,14
+    CONTROL         "",IDC_BALL_POSITIONY_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,111,119,11,14
+    CONTROL         "",IDC_BALL_POSITIONZ_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,167,119,11,14
+    CONTROL         "",IDC_BALL_SCORE_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    55,41,11,14
+    CONTROL         "",IDC_BALL_RAY_SPIN,"msctls_updown32",UDS_ARROWKEYS,111,
+                    41,11,14
+    CONTROL         "",IDC_BALL_MASS_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    167,41,11,14
+    GROUPBOX        "Kolor:",IDC_STATIC,7,61,255,81
+    GROUPBOX        "Pozycja:",IDC_STATIC,7,99,255,43
+    COMBOBOX        IDC_BALLS,30,8,161,86,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "<-",IDC_BALL_PREVIOUS,7,7,20,14
+    PUSHBUTTON      "->",IDC_BALL_NEXT,193,7,20,14
+    CONTROL         "Bia³a",IDC_BALL_WHITE,"Button",BS_AUTORADIOBUTTON,186,
+                    32,31,10
+    CONTROL         "Czerwona",IDC_BALL_RED,"Button",BS_AUTORADIOBUTTON,186,
+                    42,48,10
+    CONTROL         "Kolorowa",IDC_BALL_COLOR,"Button",BS_AUTORADIOBUTTON,
+                    186,52,45,10
+END
+
+IDD_ABOUT_DIALOG DIALOGEX 0, 0, 282, 113
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Snooker Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006",IDC_STATIC,40,88,119,8
+    DEFPUSHBUTTON   "OK",IDOK,225,90,50,16,WS_GROUP
+    LTEXT           "Projekt zaliczeniowy z przedmiotu ""Grafika komputerowa""",
+                    IDC_STATIC,40,20,183,8
+    LTEXT           "Autorzy:",IDC_STATIC,40,39,29,8
+    LTEXT           "Miros³aw Szajner (noozy@tlen.pl)",IDC_STATIC,40,50,108,
+                    8
+    LTEXT           "Piotr Repetowski",IDC_STATIC,40,59,54,8
+    LTEXT           "PRz      3FDA      2005/2006",IDC_STATIC,40,70,89,8
+    LTEXT           "Prowadz¹cy:",IDC_STATIC,191,39,42,8
+    LTEXT           "S³awomir Samolej",IDC_STATIC,191,50,65,8
+END
+
+IDD_DISPLAY_DIALOG DIALOGEX 0, 0, 174, 116
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Ustawienia wyœwietlania..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,33,95,50,14
+    PUSHBUTTON      "Anuluj",IDCANCEL,89,95,50,14
+    GROUPBOX        "Rozdzielczoœæ:",IDC_STATIC,7,7,160,34
+    COMBOBOX        IDC_RESOLUTIONS,17,20,139,71,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Opcje:",IDC_STATIC,7,43,160,44
+    CONTROL         "Pe³ny ekran",IDC_FULLSCREEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,17,56,54,10
+    CONTROL         "Nie pytaj ponownie",IDC_DONT_ASK_AGAIN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,69,77,10
+END
+
+IDD_HELP_DIALOG DIALOGEX 0, 0, 325, 162
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,138,141,50,14
+    LTEXT           "Lewy klawisz myszy + ruch myszk¹:",IDC_STATIC,7,7,115,8
+    LTEXT           "Prawy klawisz myszy + ruch myszk¹:",IDC_STATIC,7,34,118,
+                    8
+    LTEXT           "Zmiana pozycji obserwacji",IDC_STATIC,7,44,84,8
+    LTEXT           "Zmiana widoku",IDC_STATIC,7,17,48,8
+    LTEXT           "Spacja:",IDC_STATIC,7,61,25,8
+    LTEXT           "Backspace:",IDC_STATIC,7,88,37,8
+    LTEXT           "Poprzedni tryb",IDC_STATIC,7,98,48,8
+    LTEXT           "Nastêpny tryb",IDC_STATIC,7,71,47,8
+    LTEXT           "Przesuniêcie zgodnie z widokiem",IDC_STATIC,165,98,103,
+                    8
+    LTEXT           "Page Up/Page Down:",IDC_STATIC,165,88,69,8
+    LTEXT           "Klawisze W,S,A,D:",IDC_STATIC,165,7,60,8
+    LTEXT           "F1..F8:",IDC_STATIC,7,116,25,8
+    LTEXT           "Zapamiêtaj pozycjê kamery",IDC_STATIC,165,126,88,8
+    LTEXT           "Zmiana pozycji obserwacji, celowanie",IDC_STATIC,165,44,
+                    120,8
+    LTEXT           "Zmiana wysokoœci",IDC_STATIC,165,71,58,8
+    LTEXT           "Zmiana widoku",IDC_STATIC,165,17,48,8
+    LTEXT           "Za³aduj predefiniowane pozycje kamery",IDC_STATIC,7,126,
+                    128,8
+    LTEXT           "Shift+F1..F8:",IDC_STATIC,165,116,45,8
+    LTEXT           "Klawisze kursorów:",IDC_STATIC,165,34,62,8
+    LTEXT           "Home/End:",IDC_STATIC,165,61,36,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_TRIANGLES_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_MENU_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 93
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_NEW_GAME_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_BALLS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_ABOUT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_DISPLAY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_HELP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 318
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Politechnika Rzeszowska"
+            VALUE "FileDescription", "Trójwymiarowy Snooker"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Snooker.exe"
+            VALUE "OriginalFilename", "Snooker.exe"
+            VALUE "ProductName", "Snooker"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Snooker.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Snooker...",           ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    VK_F1,          ID_ABOUT_DIALOG,        VIRTKEY, CONTROL, NOINVERT
+    VK_F9,          ID_BALLS_DIALOG,        VIRTKEY, NOINVERT
+    VK_F1,          ID_LOAD_CAMERA1,        VIRTKEY, NOINVERT
+    VK_F2,          ID_LOAD_CAMERA2,        VIRTKEY, NOINVERT
+    VK_F3,          ID_LOAD_CAMERA3,        VIRTKEY, NOINVERT
+    VK_F4,          ID_LOAD_CAMERA4,        VIRTKEY, NOINVERT
+    VK_F5,          ID_LOAD_CAMERA5,        VIRTKEY, NOINVERT
+    VK_F6,          ID_LOAD_CAMERA6,        VIRTKEY, NOINVERT
+    VK_F7,          ID_LOAD_CAMERA7,        VIRTKEY, NOINVERT
+    VK_F8,          ID_LOAD_CAMERA8,        VIRTKEY, NOINVERT
+    VK_ESCAPE,      ID_MENU_DIALOG,         VIRTKEY, NOINVERT
+    VK_F11,         ID_SAVE_DEFAULT,        VIRTKEY, NOINVERT
+    VK_F1,          ID_STORE_CAMERA1,       VIRTKEY, SHIFT, NOINVERT
+    VK_F2,          ID_STORE_CAMERA2,       VIRTKEY, SHIFT, NOINVERT
+    VK_F3,          ID_STORE_CAMERA3,       VIRTKEY, SHIFT, NOINVERT
+    VK_F4,          ID_STORE_CAMERA4,       VIRTKEY, SHIFT, NOINVERT
+    VK_F5,          ID_STORE_CAMERA5,       VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_STORE_CAMERA6,       VIRTKEY, SHIFT, NOINVERT
+    VK_F7,          ID_STORE_CAMERA7,       VIRTKEY, SHIFT, NOINVERT
+    VK_F8,          ID_STORE_CAMERA8,       VIRTKEY, SHIFT, NOINVERT
+    VK_F10,         ID_TRIANGLES_DIALOG,    VIRTKEY, NOINVERT
+    VK_F2,          ID_NEW_GAME_DIALOG,     VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Snooker"
+    IDS_NOT_SUPPORTED       "Not supported"
+    IDS_CLASS_NAME          "SnookerWindow"
+    IDS_ERROR_CREATE_WINDOW "Unable to create main window!"
+    IDS_ERROR_SET_DISPLAY_MODE 
+                            "Unable to change fullscreen!\nSwitch to windowed mode!"
+    IDS_WINDOW_TITLE        "Snooker"
+    IDS_ERROR_REGISTER_CLASS "Error while registering window class!"
+    IDS_DEFAULTEXT          ".snk"
+    IDS_FILTER              "Pliki billarda|*.snk|Wszystkie pliki|*.*||"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Snooker"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\Snooker.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
