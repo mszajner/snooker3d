@@ -1,0 +1,1087 @@
+#Powierzchnia stolu
+
+SURFACE
+#Umiejscowienie powierzchni w przestrzeni
+	POINTS
+		17.865 0.0 -8.91
+		17.865 0.0 8.91
+		-17.865 0.0 -8.91
+		-17.865 0.0 8.91
+#Ilosc prostokatow 
+	PARAMETRS
+		20	10
+
+#Kolor powierzchni
+	COLOR
+		0.0 0.35 0.0
+
+#Normalna
+	NORMAL
+		0.0 1.0 0.0
+
+#Wlasciwiosci materialu
+	MATERIAL
+		0.1 0.1 0.1
+
+#Wlaczona textura
+	ENABLE_TEXTURE
+		1
+
+#Wspolrzedne tekstury
+	TEXTURE_COORD
+		0.0 0.0
+		0.0 0.0
+		0.0 0.0
+		0.0 1.0
+
+#Zewnetrzna pozioma blizsza powierzchnia
+
+SURFACE
+	POINTS
+		-17.845 0.262 10.89	
+		17.845 0.262 10.89	
+		-17.845 -0.5 10.89	
+		17.845 -0.5 10.89
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.6 0.4 0.18
+
+	NORMAL
+		0.0 0.0 1.0
+
+#Zewnetrzna blizsza ukosna	
+
+SURFACE
+	POINTS
+		-17.845 -0.5 10.39
+		17.845 -0.5 10.39
+		-17.845 -2.0 9.39
+		17.845 -2.0 9.39
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+	COLOR
+		0.21 0.1 0.0
+	NORMAL
+		0.0 -0.5547 0.83205
+
+#Zewnetrzna dolna
+
+SURFACE
+	POINTS
+		-17.845 -0.5 10.89
+		17.845 -0.5 10.89
+		-17.845 -0.5 9.89
+		17.845 -0.5 9.89
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.21 0.1 0.0
+
+	NORMAL
+		0.0 -1.0 0.0
+
+#Lewa zewnetrzna gorna
+
+SURFACE
+	POINTS
+		-17.1107 0.262 9.37
+		-1.0 0.262 9.37
+		-17.1107 0.262 10.9
+		-1.0 0.262 10.9	
+
+	PARAMETRS
+		10	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.4 0.2 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Prawa zewnetrzna gorna
+
+
+SURFACE
+	POINTS
+		1.0 0.262 9.37
+		17.1107 0.262 9.37
+		1.0 0.262 10.9
+		17.1107 0.262 10.9
+
+	PARAMETRS
+		10	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.4 0.2 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Wewnetrzna gorna lewa
+
+SURFACE
+	POINTS
+		-17.1107 0.262 9.39
+		-17.1107 0.262 8.89
+		-1.2 0.262 9.39
+		-1.2 0.262 8.89
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		0.0 0.0
+		0.0 0.0
+		0.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Inside band surface
+
+SURFACE
+	POINTS
+		1.2 0.262 8.89
+		17.1107 0.262 8.89
+		1.2 0.262 9.39
+		17.1107 0.262 9.39
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Inside band surface
+
+SURFACE
+	POINTS
+		-17.6107 0.0 8.89
+		-0.7 0.0 8.89
+		-17.6107 0.0 9.41
+		-0.7 0.0 9.41
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Inside band surface
+
+SURFACE
+	POINTS
+		0.7 0.0 8.89
+		17.6107 0.0 8.89
+		0.7 0.0 9.41
+		17.6107 0.0 9.41
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Lewa wewnetrzna ukosna	!#######
+
+SURFACE
+	POINTS
+		-17.1107 0.0 9.39
+		-1.2 0.0 9.39
+		-17.1107 0.262 8.89
+		-1.2 0.262 8.89
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 -0.885762 -0.464139
+
+#Inside band surface !#######
+
+
+SURFACE
+	POINTS
+		17.1107 0.262 8.89
+		1.2 0.262 8.89
+		17.1107 0.0 9.39
+		1.2 0.0 9.39
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 -0.885762 -0.464139
+
+#Far Outside band surface	
+
+SURFACE
+	POINTS
+		-17.845 -0.5 -10.89
+		17.845 -0.5 -10.89
+		-17.845 0.262 -10.89
+		17.845 0.262 -10.89
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.6 0.4 0.18
+
+	NORMAL
+		0.0 0.0 -1.0
+
+#Outside band surface	!########
+
+SURFACE
+	POINTS
+		-17.845 -2.0 -9.39
+		17.845 -2.0 -9.39
+		-17.845 -0.5 -10.39
+		17.845 -0.5 -10.39
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.21 0.1 0.0
+
+	NORMAL
+		0.0 -0.5547 -0.83205
+
+#Outside band surface
+
+SURFACE
+	POINTS
+		-17.845 -0.5 -9.89
+		17.845 -0.5 -9.89
+		-17.845 -0.5 -10.89
+		17.845 -0.5 -10.89
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.21 0.1 0.0
+
+	NORMAL
+		0.0 -1.0 0.0
+
+#Left outside band surface
+
+SURFACE
+	POINTS
+		-17.1107 0.262 -10.9
+		-1.0 0.262 -10.9
+		-17.1107 0.262 -9.37
+		-1.0 0.262 -9.37
+
+	PARAMETRS
+		10	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.4 0.2 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Right outside band surface
+
+SURFACE
+	POINTS
+		1.0 0.262 -10.9
+		17.1107 0.262 -10.9
+		1.0 0.262 -9.37
+		17.1107 0.262 -9.37
+
+	PARAMETRS
+		10	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.4 0.2 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Inside band surface
+
+SURFACE
+	POINTS
+		-1.2 0.262 -9.39
+		-1.2 0.262 -8.87
+		-17.1107 0.262 -9.39
+		-17.1107 0.262 -8.87
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.4 0.2 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+
+#Inside band surface
+
+SURFACE
+	POINTS
+		1.2 0.262 -9.39
+		17.1107 0.262 -9.39
+		1.2 0.262 -8.87
+		17.1107 0.262 -8.87
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.4 0.2 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Inside band surface
+
+SURFACE
+	POINTS
+		-17.6107 0.0 -9.41
+		-0.7 0.0 -9.41
+		-17.6107 0.0 -8.89
+		-0.7 0.0 -8.89
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.4 0.2 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Inside band surface
+
+SURFACE
+	POINTS
+		0.7 0.0 -9.41
+		17.6107 0.0 -9.41
+		0.7 0.0 -8.89
+		17.6107 0.0 -8.89
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Inside band surface	!#######
+
+SURFACE
+	POINTS
+		-17.1107 0.262 -8.91
+		-1.2 0.262 -8.91
+		-17.1107 0.0 -9.39
+		-1.2 0.0 -9.39
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 -0.877756 0.479108
+
+#Inside band surface	!######
+
+SURFACE
+	POINTS
+		17.1107 0.0 -9.39
+		1.2 0.0 -9.39
+		17.1107 0.262 -8.89
+		1.2 0.262 -8.89
+
+	PARAMETRS
+		10	1
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 -0.877756 0.479108
+
+#Prawa boczna strona stolu
+
+SURFACE
+	POINTS
+		19.845 0.262 8.89
+		19.845 0.262 -8.89
+		19.845 -0.5 8.89
+		19.845 -0.5 -8.89
+
+	PARAMETRS
+		10	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.6 0.4 0.18
+
+	NORMAL
+		1.0 0.0 0.0
+
+#Prawa boczna ukosna strona stolu	!#####
+
+SURFACE
+	POINTS
+		19.345 -0.5 8.89
+		19.345 -0.5 -8.89
+		18.345 -2.0 8.89
+		18.345 -2.0 -8.89
+
+	PARAMETRS
+		10	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.21 0.1 0.0
+
+	NORMAL
+		0.83205 -0.5547 0.0
+
+#Prawa gorna banda
+
+SURFACE
+	POINTS
+		19.855 0.262 8.1557
+		18.335 0.262 8.1557
+		19.855 0.262 -8.1557
+		18.335 0.262 -8.1557
+
+	PARAMETRS
+		2	10
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.4 0.2 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Prawa dolna banda
+
+SURFACE
+	POINTS
+		18.845 -0.5 8.89
+		19.845 -0.5 8.89
+		18.845 -0.5 -8.89
+		19.845 -0.5 -8.89	
+
+	PARAMETRS
+		2	10
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.21 0.1 0.0
+
+	NORMAL
+		0.0 -1.0 0.0
+
+#Prawa wewnetrzna gorna banda
+
+SURFACE
+	POINTS
+		17.84 0.262 -8.1557
+		18.345 0.262 -8.1557
+		17.84 0.262 8.1557
+		18.345 0.262 8.1557
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Prawa wewnetrzna dolna banda
+
+SURFACE
+	POINTS
+		17.845 0.0 -8.6557
+		18.365 0.0 -8.6557
+		17.845 0.0 8.6557
+		18.365 0.0 8.6557
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Prawa wewnetrzna ukosna banda !#######
+
+SURFACE
+	POINTS
+		17.845 0.262 -8.1557
+		17.845 0.262 8.1557
+		18.345 -0.02 -8.1557
+		18.345 -0.02 8.1557
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+	NORMAL
+		-0.491253 -0.871017 0.0
+
+#Lewa boczna strona stolu
+
+SURFACE
+	POINTS
+		-19.845 -0.5 8.89
+		-19.845 -0.5 -8.89
+		-19.845 0.262 8.89
+		-19.845 0.262 -8.89
+
+	PARAMETRS
+		10	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.6 0.4 0.18
+
+	NORMAL
+		-1.0 0.0 0.0
+
+#Lewa boczna ukoœna strona stolu	#############
+
+SURFACE
+	POINTS
+		-18.345 -2.0 8.89
+		-18.345 -2.0 -8.89
+		-19.345 -0.5 8.89
+		-19.345 -0.5 -8.89
+
+	PARAMETRS
+		10	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.21 0.1 0.0
+
+	NORMAL
+		-0.83205 -0.5547 0.0
+
+#Lewa gorna banda
+
+SURFACE
+	POINTS
+		-19.855 0.262 -8.1557
+		-18.335 0.262 -8.1557
+		-19.855 0.262 8.1557
+		-18.335 0.262 8.1557
+
+	PARAMETRS
+		2	10
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.4 0.2 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Lewa dolna banda
+
+SURFACE
+	POINTS
+		-18.845 -0.5 -8.89
+		-19.845 -0.5 -8.89
+		-18.845 -0.5 8.89
+		-19.845 -0.5 8.89
+
+	PARAMETRS
+		2	10
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.21 0.1 0.0
+
+	NORMAL
+		0.0 -1.0 0.0
+
+#Lewa wewnetrzna gorna banda
+
+SURFACE
+	POINTS
+		-17.845 0.262 8.1557
+		-18.345 0.262 8.1557
+		-17.845 0.262 -8.1557
+		-18.345 0.262 -8.1557
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Lewa wewnetrzna dolna banda
+
+SURFACE
+	POINTS
+		-17.845 0.0 8.6557
+		-18.365 0.0 8.6557
+		-17.845 0.0 -8.6557
+		-18.365 0.0 -8.6557
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.0 1.0 0.0
+
+#Lewa wewnetrzna ukosn banda	####
+
+SURFACE
+	POINTS
+		-18.345 0.0 -8.1557
+		-18.345 0.0 8.1557
+		-17.845 0.262 -8.1557
+		-17.845 0.262 8.1557
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.0 0.4 0.0
+
+	NORMAL
+		0.491253 -0.871017 0.0
+
+#Dolna powierzchnia
+
+SURFACE
+	POINTS
+		-17.845 -2.0 9.41
+		17.845 -2.0 9.41
+		-17.845 -2.0 -9.41
+		17.845 -2.0 -9.41
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.21 0.1 0.0
+
+	NORMAL
+		0.0 -1.0 0.0
+
+#Lewa dolna powierzchnia
+
+SURFACE
+	POINTS
+		-18.365 -2.0 8.89
+		-17.835 -2.0 8.89
+		-18.365 -2.0 -8.89
+		-17.835 -2.0 -8.89
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.21 0.1 0.0
+
+	NORMAL
+		0.0 -1.0 0.0
+
+#Prawa dolna powierzchnia
+
+SURFACE
+	POINTS
+		17.835 -2.0 8.89
+		18.365 -2.0 8.89
+		17.835 -2.0 -8.89
+		18.365 -2.0 -8.89
+
+	PARAMETRS
+		20	2
+
+	ENABLE TEXTURE
+		1
+
+	TEXTURE COORD
+		0.0 0.0
+		1.0 0.0
+		1.0 0.0
+		1.0 1.0
+
+	COLOR
+		0.21 0.1 0.0
+
+	NORMAL
+		0.0 -1.0 0.0

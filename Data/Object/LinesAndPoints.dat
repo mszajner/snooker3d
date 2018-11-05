@@ -1,0 +1,163 @@
+#linia bazy
+TRANSLATE
+	0.0 6.8 0.0
+	
+OBJECT
+	HOW_MANY
+		3
+	POINTS
+		-1.024 0.262 9.39
+		-0.524 0.262 9.39
+		-1.024 0.262 8.89
+	COLOR
+		0.0 0.35 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+	glTranslatef(0.0f, 6.8f, 0.0f);
+		glBegin(GL_QUADS);
+			glColor4f(1.0f, 1.0f, 1.0f,0.0f);
+			glVertex3f(17.78f - 7.3f, 0.0f, -8.89f);
+
+			glColor4f(1.0f, 1.0f, 1.0f, 0.2f);
+			glVertex3f(17.78f - 7.4f, 0.01f, -8.89f);
+
+			glColor4f(1.0f, 1.0f, 1.0f, 0.2f);
+			glVertex3f(17.78f - 7.4f, 0.01f, 8.89f);
+
+			glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
+			glVertex3f(17.78f - 7.3f, 0.0f, 8.89f);
+		glEnd();
+
+		glBegin(GL_QUADS);
+			glColor4f(1.0f, 1.0f, 1.0f,0.0f);
+			glVertex3f(17.78f - 7.5f, 0.0f, -8.89f);
+
+			glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
+			glVertex3f(17.78f - 7.5f, 0.0f, 8.89f);
+
+			glColor4f(1.0f, 1.0f, 1.0f, 0.2f);
+			glVertex3f(17.78f - 7.4f, 0.01f, 8.89f);
+
+			glColor4f(1.0f, 1.0f, 1.0f, 0.2f);
+			glVertex3f(17.78f - 7.4f, 0.01f, -8.89f);
+		glEnd();
+#punkt glowny
+TRANSLATE
+	0.0 0.01 0.0
+
+		glPushMatrix();
+			glTranslatef(0.0f, 0.01f, 0.0f);			
+			for (currentAngle = 0.0; currentAngle < 360.0; currentAngle += 9.0f)
+			{
+				glBegin(GL_TRIANGLES);
+					glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
+					glVertex3f(0.0f, 0.01f, -0.2f);
+
+					glColor4f(1.0f, 1.0f, 1.0f, 0.2f);
+					glVertex3f(0.0f, 0.01f, 0.0f);
+
+					glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
+					glVertex3f(0.0313191f, 0.01f, -0.2f + 0.00246486f);
+				glEnd();
+
+				glRotatef(-9.0f, 0.0f, 1.0f, 0.0f);
+			}
+		glPopMatrix();
+
+#punkt centralny
+		glPushMatrix();
+			glTranslatef(-(17.78f - 3.24f), 0.05f, 0.0f);			
+			for (currentAngle = 0.0; currentAngle < 360.0; currentAngle += 9.0f)
+			{
+				glBegin(GL_TRIANGLES);
+					glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
+					glVertex3f(0.0f, 0.01f, -0.2f);
+
+					glColor4f(1.0f, 1.0f, 1.0f, 0.2f);
+					glVertex3f(0.0f, 0.01f, 0.0f);
+
+					glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
+					glVertex3f(0.0313191f, 0.01f, -0.2f + 0.00246486f);
+				glEnd();
+
+				glRotatef(-9.0f, 0.0f, 1.0f, 0.0f);
+			}
+		glPopMatrix();
+
+#punkt piramidy
+		glPushMatrix();
+			glTranslatef(-8.89f, 0.01f, 0.0f);			
+			for (currentAngle = 0.0; currentAngle < 360.0; currentAngle += 9.0f)
+			{
+				glBegin(GL_TRIANGLES);
+					glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
+					glVertex3f(0.0f, 0.01f, -0.2f);
+
+					glColor4f(1.0f, 1.0f, 1.0f, 0.2f);
+					glVertex3f(0.0f, 0.01f, 0.0f);
+
+					glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
+					glVertex3f(0.0313191f, 0.01f, -0.2f + 0.00246486f);
+				glEnd();
+
+				glRotatef(-9.0f, 0.0f, 1.0f, 0.0f);
+			}
+		glPopMatrix();
+
+#punkt brazowy
+		glPushMatrix();
+			glTranslatef(10.41f, 0.01f, 0.0f);			
+			for (currentAngle = 0.0; currentAngle < 360.0; currentAngle += 9.0f)
+			{
+				glBegin(GL_TRIANGLES);
+					glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
+					glVertex3f(0.0f, 0.01f, -0.2f);
+
+					glColor4f(1.0f, 1.0f, 1.0f, 0.2f);
+					glVertex3f(0.0f, 0.01f, 0.0f);
+
+					glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
+					glVertex3f(0.0313191f, 0.01f, -0.2f + 0.00246486f);
+				glEnd();
+
+				glRotatef(-9.0f, 0.0f, 1.0f, 0.0f);
+			}
+		glPopMatrix();
+
+#strefa D
+		glPushMatrix();
+			glTranslatef((17.78f - 7.4f), 0.0f, 0.0f);			
+			for (currentAngle = 0.0; currentAngle < 180.0; currentAngle += 9.0f)
+			{
+				glBegin(GL_QUADS);
+					glColor4f(1.0f, 1.0f, 1.0f,0.2f);
+					glVertex3f(0.0f, 0.015f, -2.29f);
+
+					glColor4f(1.0f, 1.0f, 1.0f,0.0f);
+					glVertex3f(0.0f, 0.015f, -2.19f);
+
+					glColor4f(1.0f, 1.0f, 1.0f,0.0f);
+					glVertex3f(0.342944f, 0.015f, -2.19f + 0.0269902f);
+
+					glColor4f(1.0f, 1.0f, 1.0f,0.2f);
+					glVertex3f(0.358604f, 0.015f, -2.29f + 0.028223f);
+				glEnd();
+
+				glBegin(GL_QUADS);
+					glColor4f(1.0f, 1.0f, 1.0f,0.0f);
+					glVertex3f(0.0f, 0.015f, -2.39f);
+
+					glColor4f(1.0f, 1.0f, 1.0f,0.2f);
+					glVertex3f(0.0f, 0.015f, -2.29f);
+
+					glColor4f(1.0f, 1.0f, 1.0f,0.2f);
+					glVertex3f(0.358604f, 0.015f, -2.29f + 0.028223f);
+
+					glColor4f(1.0f, 1.0f, 1.0f,0.0f);
+					glVertex3f(0.374263f, 0.015f, -2.39f + 0.0294551f);
+				glEnd();
+				glRotatef(-9.0f, 0.0f, 1.0f, 0.0f);
+			}
+		glPopMatrix();

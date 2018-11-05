@@ -1,0 +1,19 @@
+#Definicja fragmentu srodkowej kieszeni ktora bedzie obracana
+OBJECT
+	HOW_MANY
+		4
+
+	POINTS
+		-0.524 0.0 0.05
+		-0.524 0.0 -0.05
+		-0.524 0.312 -0.05
+		-0.524 0.312 0.05
+
+	COLOR
+		0.1 0.1 0.1
+
+	MATERIAL
+		0.1 0.1 0.1
+
+	ENABLE TEXTURE
+		0

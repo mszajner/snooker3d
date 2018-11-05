@@ -1,0 +1,154 @@
+#Definicja fragmentu srodkowej kieszeni ktora bedzie obracana
+OBJECT
+	HOW_MANY
+		4
+
+	POINTS
+		-0.524 0.0 0.05
+		-0.524 0.0 -0.05
+		-0.524 0.312 -0.05
+		-0.524 0.312 0.05
+
+	COLOR
+		0.1 0.1 0.1
+
+	MATERIAL
+		0.1 0.1 0.1
+
+	ENABLE TEXTURE
+		0
+
+OBJECT
+	HOW_MANY
+		4
+
+	POINTS
+		-0.524 0.312 0.05
+		-0.524 0.312f -0.05
+		-0.584 0.312 -0.05
+		-0.584 0.312 0.05
+
+	COLOR
+		0.1 0.1 0.1
+
+	MATERIAL
+		0.1 0.1 0.1
+
+	ENABLE TEXTURE
+		0
+
+OBJECT
+	HOW_MANY
+		4
+
+	POINTS
+		-0.584 0.312 -0.05
+		-0.584 0.0 -0.05
+		-0.584 0.0 0.05
+		-0.584 0.262 0.05
+
+	COLOR
+		0.1 0.1 0.1
+
+	MATERIAL
+		0.1 0.1 0.1
+
+	ENABLE TEXTURE
+		0
+
+OBJECT
+	HOW_MANY
+		4
+
+	POINTS
+		-1.0 0.262 -0.05
+		-1.0 0.262 0.05
+		-0.584 0.312 0.05
+		-0.584 0.312 -0.05
+
+	COLOR
+		0.7 0.7 0.7
+
+	MATERIAL
+		0.1 0.1 0.1
+
+	ENABLE TEXTURE
+		0
+
+#Definicja fragmentu srodkowej kieszeni ktora bedzie obracana znajdujaca sie w glebi ekranu
+
+OBJECT
+	HOW_MANY
+		4
+
+	POINTS
+		-0.524 0.0 0.05
+		-0.524 0.0 -0.05
+		-0.524 0.312 -0.05
+		-0.524 0.312 0.05
+
+	COLOR
+		0.1 0.1 0.1
+
+	MATERIAL
+		0.1 0.1 0.1
+
+	ENABLE TEXTURE
+		0
+
+OBJECT
+	HOW_MANY
+		4
+
+	POINTS
+		-0.524 0.312 0.05
+		-0.524 0.312 -0.05
+		-0.584 0.312 -0.05
+		-0.584 0.312 0.05
+
+	COLOR
+		0.1 0.1 0.1
+
+	MATERIAL
+		0.1 0.1 0.1
+
+	ENABLE TEXTURE
+		0
+
+OBJECT
+	HOW_MANY
+		4
+
+	POINTS
+		-0.584 0.312 -0.05
+		-0.584 0.0 -0.05
+		-0.584 0.0 0.05
+		-0.584 0.312 0.05
+
+	COLOR
+		0.1 0.1 0.1
+
+	MATERIAL
+		0.1 0.1 0.1
+
+	ENABLE TEXTURE
+		0
+
+OBJECT
+	HOW_MANY
+		4
+
+	POINTS
+		-1.0 0.262 -0.05
+		-1.0 0.262f, 0.05
+		-0.584 0.312 0.05
+		-0.584 0.312 -0.05
+
+	COLOR
+		0.7 0.7 0.7
+
+	MATERIAL
+		0.1 0.1 0.1
+
+	ENABLE TEXTURE
+		0

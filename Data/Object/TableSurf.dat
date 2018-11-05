@@ -1,0 +1,950 @@
+#Powierzchnia stolu
+SURFACE
+	POINTS
+		17.845 0.0 -8.89
+		17.845 0.0 8.89
+		-17.845 0.0 -8.89
+		-17.845 0.0 8.89
+	PARAMETRS
+		20	10
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Zewnetrzna pozioma blizsza powierzchnia
+SURFACE
+	POINTS
+		-17.845 0.262 10.2
+		17.845 0.262 10.2
+		-17.845 -0.5 10.2
+		17.845 -0.5 10.2
+	PARAMETRS
+		20	2
+	COLOR
+		0.4 0.15 0.0
+	NORMAL
+		0.0 0.0 1.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.5
+		4.0 0.5
+		0.0 0.0
+		4.0 0.0
+
+#Zewnetrzna blizsza ukosna	
+SURFACE
+	POINTS
+		-17.845 -0.5 9.7
+		17.845 -0.5 9.7
+		-17.845 -2.0 8.89
+		17.845 -2.0 8.89
+	PARAMETRS
+		20	2
+	COLOR
+		0.21 0.1 0.0
+	NORMAL
+		0.0 -0.5547 0.83205
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		0
+
+#Zewnetrzna dolna
+SURFACE
+	POINTS
+		-17.845 -0.5 10.2
+		17.845 -0.5 10.2
+		-17.845 -0.5 9.7
+		17.845 -0.5 9.7
+	PARAMETRS
+		20	2
+	COLOR
+		0.21 0.1 0.0
+	NORMAL
+		0.0 -1.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		0
+
+#Lewa zewnetrzna gorna
+SURFACE
+	POINTS
+		-17.69 0.262 9.39
+		-0.543 0.262 9.39
+		-17.69 0.262 10.2
+		-0.543 0.262 10.2
+	PARAMETRS
+		10	2
+	COLOR
+		0.4 0.15 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.5
+		3.0 0.5
+		0.0 0.0
+		3.0 0.0
+
+#Prawa zewnetrzna gorna
+SURFACE
+	POINTS
+		0.543 0.262 9.39
+		17.69 0.262 9.39
+		0.543 0.262 10.2
+		17.69 0.262 10.2
+	PARAMETRS
+		10	2
+	COLOR
+		0.4 0.15 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.5
+		3.0 0.5
+		0.0 0.0
+		3.0 0.0
+
+#Lewa pionowa blizsza powierzchnia  maskujaca niedoskonalosci od wewnatrz
+SURFACE
+	POINTS
+		-0.524 0.262 9.39
+		-17.6017 0.262 9.39
+		-0.524 -0.5 9.39
+		-17.6017 -0.5 9.39
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 0.0 -1.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Lewa pionowa blizsza powierzchnia  maskujaca niedoskonalosci od zewnatrz
+SURFACE
+	POINTS
+		-17.6017 0.262 9.42
+		-0.524 0.262 9.42
+		-17.6017 -0.5 9.42
+		-0.524 -0.5 9.42
+	PARAMETRS
+		1	1
+	COLOR
+		0.0 0.0 0.0
+	NORMAL
+		0.0 0.0 1.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Prawa pionowa blizsza powierzchnia maskujaca niedoskonalosci od wewnatrz
+SURFACE
+	POINTS
+		17.6017 0.262 9.39
+		0.524 0.262 9.39
+		17.6017 -0.5 9.39
+		0.524 -0.5 9.39
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 0.0 -1.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Prawa pionowa blizsza powierzchnia maskujaca niedoskonalosci od zewnatrz
+SURFACE
+	POINTS
+		0.524 0.262 9.42
+		17.6017 0.262 9.42
+		0.524 -0.5 9.42
+		17.6017 -0.5 9.42
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 0.0 1.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna gorna lewa
+SURFACE
+	POINTS
+		-17.1107 0.262 9.39
+		-17.1107 0.262 8.89
+		-1.024 0.262 9.39
+		-1.024 0.262 8.89
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna gorna prawa
+SURFACE
+	POINTS
+		1.024 0.262 8.89
+		17.1017 0.262 8.89
+		1.024 0.262 9.39
+		17.1017 0.262 9.39
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna dolna lewa
+SURFACE
+	POINTS
+		-17.6107 0.0 8.87
+		-0.524 0.0 8.87
+		-17.6107 0.0 9.41
+		-0.524 0.0 9.41
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna dolna prawa
+SURFACE
+	POINTS
+		0.524 0.0 8.87
+		17.6107 0.0 8.87
+		0.524 0.0 9.41
+		17.6107 0.0 9.41
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna ukosna lewa
+SURFACE
+	POINTS
+		-17.1107 0.0 9.39
+		-1.024 0.0 9.39
+		-17.1107 0.262 8.89
+		-1.024 0.262 8.89
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 -0.885762 -0.464139
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna ukosna prawa
+SURFACE
+	POINTS
+		17.1107 0.262 8.89
+		1.024 0.262 8.89
+		17.1107 0.0 9.39
+		1.024 0.0 9.39
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 -0.885762 -0.464139
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Zewnetrzna banda dla ujemnych z
+SURFACE
+	POINTS
+		-17.845 -0.5 -10.2
+		17.845 -0.5 -10.2
+		-17.845 0.262 -10.2
+		17.845 0.262 -10.2
+	PARAMETRS
+		20	2
+	COLOR
+		0.4 0.15 0.0
+	NORMAL
+		0.0 0.0 -1.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.0
+		4.0 0.0
+		0.0 0.5
+		4.0 0.5
+
+#Zewnetrzna banda ukosna
+SURFACE
+	POINTS
+		-17.845 -2.0 -8.89
+		17.845 -2.0 -8.89
+		-17.845 -0.5 -9.7
+		17.845 -0.5 -9.7
+	PARAMETRS
+		20	2
+	COLOR
+		0.21 0.1 0.0
+	NORMAL
+		0.0 -0.5547 -0.83205
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		0
+
+#Zewnetrzna dolna
+SURFACE
+	POINTS
+		-17.845 -0.5 -9.7
+		17.845 -0.5 -9.7
+		-17.845 -0.5 -10.2
+		17.845 -0.5 -10.2
+	PARAMETRS
+		20	2
+	COLOR
+		0.21 0.1 0.0
+	NORMAL
+		0.0 -1.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		0
+
+#Zewnetrzna lewa
+SURFACE
+	POINTS
+		-17.69 0.262 -10.2
+		-0.543 0.262 -10.2
+		-17.69 0.262 -9.39
+		-0.543 0.262 -9.39
+	PARAMETRS
+		10	2
+	COLOR
+		0.4 0.15 0.0
+		NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.0
+		3.0 0.0
+		0.0 0.5
+		3.0 0.5
+
+#Zewnetrzna prawa
+SURFACE
+	POINTS
+		0.543 0.262 -10.2
+		17.69 0.262 -10.2
+		0.543 0.262 -9.39
+		17.69 0.262 -9.39
+	PARAMETRS
+		10	2
+	COLOR
+		0.4 0.15 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.0
+		3.0 0.0
+		0.0 0.5
+		3.0 0.5
+
+#Lewa pionowa blizsza powierzchnia  maskujaca niedoskonalosci od wewn¹trz
+SURFACE
+	POINTS
+		-17.6017 0.262 -9.39
+		-0.524 0.262 -9.39
+		-17.6017 -0.5 -9.39
+		-0.524 -0.5 -9.39
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 0.0 1.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Lewa pionowa blizsza powierzchnia  maskujaca niedoskonalosci od zewn¹trz
+SURFACE
+	POINTS
+		-0.524 0.262 -9.42
+		-17.6017 0.262 -9.42
+		-0.524 -0.5 -9.42
+		-17.6017 -0.5 -9.42
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.0 0.0
+	NORMAL
+		0.0 0.0 -1.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Prawa pionowa blizsza powierzchnia maskujaca niedoskonalosci od wewn¹trz
+SURFACE
+	POINTS
+		0.524 0.262 -9.39
+		17.6017 0.262 -9.39
+		0.524 -0.5 -9.39
+		17.6017 -0.5 -9.39
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 0.0 1.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Prawa pionowa blizsza powierzchnia maskujaca niedoskonalosci od zewn¹trz
+SURFACE
+	POINTS
+		17.6017 0.262 -9.39
+		0.524 0.262 -9.39
+		17.6017 -0.5 -9.39
+		0.524 -0.5 -9.39
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.0 0.0
+	NORMAL
+		0.0 0.0 -1.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna gorna lewa
+SURFACE
+	POINTS
+		-17.1107 0.262 -9.39
+		-1.024 0.262 -9.39
+		-17.1107 0.262 -8.87
+		-1.024 0.262 -8.87
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna gorna prawa
+SURFACE
+	POINTS
+		1.024 0.262 -9.39
+		17.1107 0.262 -9.39
+		1.024 0.262 -8.87
+		17.1107 0.262 -8.87
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna dolna lewa
+SURFACE
+	POINTS
+		-17.6107 0.0 -9.41
+		-0.524 0.0 -9.41
+		-17.6107 0.0 -8.87
+		-0.524 0.0 -8.87
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna dolna prawa
+SURFACE
+	POINTS
+		0.524 0.0 -9.41
+		17.6107 0.0 -9.41
+		0.524 0.0 -8.87
+		17.6107 0.0 -8.87
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna ukosna lewa
+SURFACE
+	POINTS
+		-17.1107 0.262 -8.91
+		-1.024 0.262 -8.91
+		-17.1107 0.0 -9.39
+		-1.024 0.0 -9.39
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 -0.877756 0.479108
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Wewnetrzna ukosna prawa
+SURFACE
+	POINTS
+		17.1107 0.0 -9.39
+		1.024 0.0 -9.39
+		17.1107 0.262 -8.89
+		1.024 0.262 -8.89
+	PARAMETRS
+		10	1
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 -0.877756 0.479108
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+
+#Prawa strona stolu
+SURFACE
+	POINTS
+		19.155 0.262 8.89
+		19.155 0.262 -8.89
+		19.155 -0.5 8.89
+		19.155 -0.5 -8.89
+	PARAMETRS
+		10	2
+	COLOR
+		0.4 0.15 0.0
+	NORMAL
+		1.0 0.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.5
+		2.0 0.5
+		0.0 0.0
+		2.0 0.0
+
+#Prawa boczna ukosna banda	
+SURFACE
+	POINTS
+		18.655 -0.5 8.89
+		18.655 -0.5 -8.89
+		17.845 -2.0 8.89
+		17.845 -2.0 -8.89
+	PARAMETRS
+		10	2
+	COLOR
+		0.21 0.1 0.0
+	NORMAL
+		0.83205 -0.5547 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		0
+
+#Prawa gorna banda
+SURFACE
+	POINTS
+		19.155 0.262 8.65
+		18.335 0.262 8.65
+		19.155 0.262 -8.65
+		18.335 0.262 -8.65
+	PARAMETRS
+		2	10
+	COLOR
+		0.4 0.15 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.0
+		0.0 0.5
+		3.0 0.0
+		3.0 0.5
+
+#Prawa dolna banda
+SURFACE
+	POINTS
+		18.655 -0.5 8.89
+		19.155 -0.5 8.89
+		18.655 -0.5 -8.89
+		19.155 -0.5 -8.89
+	PARAMETRS
+		2	10
+	COLOR
+		0.21 0.1 0.0
+	NORMAL
+		0.0 -1.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		0
+
+#Prawa pionowa maskujaca niedoskonalosc od wewn¹trz
+SURFACE
+	POINTS
+		18.345 0.262 -8.6557
+		18.345 0.262 8.6557
+		18.345 -0.5 -8.6557
+		18.345 -0.5 8.6557
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		-1.0 0.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Prawa pionowa maskujaca niedoskonalosc od zewn¹trz
+SURFACE
+	POINTS
+		18.35 0.262 8.6557
+		18.35 0.262 -8.6557
+		18.35 -0.5 8.6557
+		18.35 -0.5 -8.6557
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.0 0.0
+	NORMAL
+		1.0 0.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Prawa wewnetrzna gorna banda
+SURFACE
+	POINTS
+		17.84 0.262 -8.1467
+		18.345 0.262 -8.1467
+		17.84 0.262 8.1467
+		18.345 0.262 8.1467
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Prawa wewnetrzna dolna banda
+SURFACE
+	POINTS
+		17.80 0.0 -8.6
+		18.365 0.0 -8.6
+		17.80 0.0 8.6
+		18.365 0.0 8.6
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Prawa wewnetrzna ukosna banda 
+SURFACE
+	POINTS
+		17.845 0.262 -8.1467
+		17.845 0.262 8.1467
+		18.345 0.0 -8.1467
+		18.345 0.0 8.1467
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		-0.491253 -0.871017 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Lewa strona stolu
+SURFACE
+	POINTS
+		-19.155 -0.5 8.89
+		-19.155 -0.5 -8.89
+		-19.155 0.262 8.89
+		-19.155 0.262 -8.89
+	PARAMETRS
+		10	2
+	COLOR
+		0.4 0.15 0.0
+	NORMAL
+		-1.0 0.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.0
+		2.0 0.0
+		0.0 0.5
+		2.0 0.5
+
+#Lewa boczna ukoœna banda
+SURFACE
+	POINTS
+		-17.845 -2.0 8.89
+		-17.845 -2.0 -8.89
+		-18.655 -0.5 8.89
+		-18.655 -0.5 -8.89
+	PARAMETRS
+		10	2
+	COLOR
+		0.21 0.1 0.0
+	NORMAL
+		-0.83205 -0.5547 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		0
+
+#Lewa gorna banda
+SURFACE
+	POINTS
+		-19.155 0.262 -8.65
+		-18.335 0.262 -8.65
+		-19.155 0.262 8.65
+		-18.335 0.262 8.65
+	PARAMETRS
+		2	10
+	COLOR
+		0.4 0.15 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.0
+		0.0 0.5
+		3.0 0.0
+		3.0 0.5
+
+#Lewa dolna banda
+SURFACE
+	POINTS
+		-18.655 -0.5 -8.89
+		-19.155 -0.5 -8.89
+		-18.655 -0.5 8.89
+		-19.155 -0.5 8.89
+	PARAMETRS
+		2	10
+	COLOR
+		0.21 0.1 0.0
+	NORMAL
+		0.0 -1.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		0
+
+#Lewa pionowa maskujaca niedoskonalosc od wewnatrz
+SURFACE
+	POINTS
+		-18.345 0.262 8.76
+		-18.345 0.262 -8.76
+		-18.345 -0.5 8.76
+		-18.345 -0.5 -8.76
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		1.0 0.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Lewa pionowa maskujaca niedoskonalosc od zewnatrz
+SURFACE
+	POINTS
+		-18.35 0.262 -8.76
+		-18.35 0.262 8.76
+		-18.35 -0.5 -8.76
+		-18.35 -0.5 8.76
+	PARAMETRS
+		10	2
+	COLOR
+		0.0 0.0 0.0
+	NORMAL
+		-1.0 0.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Lewa wewnetrzna gorna banda
+SURFACE
+	POINTS
+		-17.845 0.262 8.1467
+		-18.345 0.262 8.1467
+		-17.845 0.262 -8.1467
+		-18.345 0.262 -8.1467
+	PARAMETRS
+		2	10
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Lewa wewnetrzna dolna banda
+SURFACE
+	POINTS
+		-17.0 0.0 8.6
+		-18.365 0.0 8.6
+		-17.0 0.0 -8.6
+		-18.365 0.0 -8.6
+	PARAMETRS
+		2	10
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.0 1.0 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Lewa wewnetrzna ukosn banda	
+SURFACE
+	POINTS
+		-18.345 0.0 -8.1467
+		-18.345 0.0 8.1467
+		-17.845 0.262 -8.1467
+		-17.845 0.262 8.1467
+	PARAMETRS
+		2	10
+	COLOR
+		0.0 0.35 0.0
+	NORMAL
+		0.491253 -0.871017 0.0
+	MATERIAL
+		0.1 0.1 0.1
+	ENABLE_TEXTURE
+		0
+
+#Dolna powierzchnia
+SURFACE
+	POINTS
+		-17.845 -2.0 8.89
+		17.845 -2.0 8.89
+		-17.845 -2.0 -8.89
+		17.845 -2.0 -8.89
+	PARAMETRS
+		2	10
+	COLOR
+		0.21 0.1 0.0
+	NORMAL
+		0.0 -1.0 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		0

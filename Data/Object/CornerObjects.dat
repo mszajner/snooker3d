@@ -1,0 +1,70 @@
+#Strona prawa blizej obserwatora
+OBJECT
+	HOW_MANY
+		4
+	POINTS
+		-0.15 -0.5 0.81
+		-0.05 -2.0 -0.0
+		0.05 -2.0 -0.0
+		0.15 -0.5 0.81
+	COLOR
+		0.21 0.1 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		0
+
+OBJECT
+	HOW_MANY
+		4
+	POINTS
+		-0.2 -0.5 0.81
+		0.2 -0.5 0.81
+		0.2 -0.5 1.31
+		-0.2 -0.5 1.31
+	COLOR
+		0.21 0.1 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		0
+
+OBJECT
+	HOW_MANY
+		4
+	POINTS
+		-0.18 -0.5 1.31
+		0.18 -0.5 1.31
+		0.18 0.262 1.31
+		-0.18 0.262 1.31
+	COLOR
+		0.4 0.15 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.0
+		0.1 0.0
+		0.1 0.4
+		0.0 0.4
+
+OBJECT
+	HOW_MANY
+		4
+	POINTS
+		-0.18 0.262 1.31
+		0.18 0.262 1.31
+		0.18 0.262 1.1
+		-0.18 0.262 1.1
+	COLOR
+		0.4 0.15 0.0
+	MATERIAL
+		0.8 0.8 0.8
+	ENABLE_TEXTURE
+		1
+	TEXTURE_COORD
+		0.0 0.0
+		0.1 0.0
+		0.1 0.4
+		0.0 0.4

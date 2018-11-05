@@ -1,0 +1,241 @@
+# Srodek dodatnie z
+DISK
+	POSITION
+		0.0 6.8 9.414
+	COLOR
+		0.0 0.0 0.0
+	IN_RADIUS
+		0.0
+	OUT_RADIUS
+		0.524
+	SLICES
+		20
+	LOOPS
+		1
+	START_ANGLE
+		0.0
+	SWEEP_ANGLE
+		360.0
+	MATERIAL
+		0.0 0.0 0.0
+# Srodek ujemne z
+DISK
+	POSITION
+		0.0 6.8 -9.414
+	COLOR
+		0.0 0.0 0.0
+	IN_RADIUS
+		0.0
+	OUT_RADIUS
+		0.524
+	SLICES
+		20
+	LOOPS
+		1
+	START_ANGLE
+		0.0
+	SWEEP_ANGLE
+		360.0
+	MATERIAL
+		0.0 0.0 0.0
+# Prawa strona dodatnie z
+DISK
+	POSITION
+		18.22 6.8 9.26
+	COLOR
+		0.0 0.0 0.0
+	IN_RADIUS
+		0.0
+	OUT_RADIUS
+		0.524
+	SLICES
+		20
+	LOOPS
+		1
+	START_ANGLE
+		0.0
+	SWEEP_ANGLE
+		360.0
+	MATERIAL
+		0.0 0.0 0.0
+# Prawa strona ujemne z
+DISK
+	POSITION
+		18.22 6.8 -9.26
+	COLOR
+		0.0 0.0 0.0
+	IN_RADIUS
+		0.0
+	OUT_RADIUS
+		0.524
+	SLICES
+		20
+	LOOPS
+		1
+	START_ANGLE
+		0.0
+	SWEEP_ANGLE
+		360.0
+	MATERIAL
+		0.0 0.0 0.0
+# Lewa strona dodatnie z
+DISK
+	POSITION
+		-18.22 6.8 9.26
+	COLOR
+		0.0 0.0 0.0
+	IN_RADIUS
+		0.0
+	OUT_RADIUS
+		0.524
+	SLICES
+		20
+	LOOPS
+		1
+	START_ANGLE
+		0.0
+	SWEEP_ANGLE
+		360.0
+	MATERIAL
+		0.0 0.0 0.0
+#  Lewa strona ujemne z
+DISK
+	POSITION
+		-18.22 6.8 -9.26
+	COLOR
+		0.0 0.0 0.0
+	IN_RADIUS
+		0.0
+	OUT_RADIUS
+		0.524
+	SLICES
+		20
+	LOOPS
+		1
+	START_ANGLE
+		0.0
+	SWEEP_ANGLE
+		360.0
+	MATERIAL
+		0.0 0.0 0.0
+# Uzupelnienie dziur w stole 
+# Srodek stolu dodatnie z
+DISK
+	POSITION
+		0.0 6.8 9.414
+	COLOR
+		0.0 0.35 0.0
+	IN_RADIUS
+		0.524
+	OUT_RADIUS
+		1.2
+	SLICES
+		10
+	LOOPS
+		1
+	START_ANGLE
+		-90.0
+	SWEEP_ANGLE
+		180.0
+	MATERIAL
+		0.1 0.1 0.1
+# Srodek stolu ujemne z
+DISK
+	POSITION
+		0.0 6.8 -9.414
+	COLOR
+		0.0 0.35 0.0
+	IN_RADIUS
+		0.524
+	OUT_RADIUS
+		1.2
+	SLICES
+		20
+	LOOPS
+		1
+	START_ANGLE
+		90.0
+	SWEEP_ANGLE
+		180.5
+	MATERIAL
+		0.1 0.1 0.1
+# Lewa strona dodatnie z
+DISK
+	POSITION
+		-18.22 6.8 9.26
+	COLOR
+		0.0 0.35 0.0
+	IN_RADIUS
+		0.524
+	OUT_RADIUS
+		1.2
+	SLICES
+		20
+	LOOPS
+		1
+	START_ANGLE
+		-13.0
+	SWEEP_ANGLE
+		120.0
+	MATERIAL
+		0.1 0.1 0.1
+# Lewa strona ujemne z
+DISK
+	POSITION
+		-18.22 6.8 -9.26
+	COLOR
+		0.0 0.35 0.0
+	IN_RADIUS
+		0.524
+	OUT_RADIUS
+		1.2
+	SLICES
+		20
+	LOOPS
+		1
+	START_ANGLE
+		75.0
+	SWEEP_ANGLE
+		120.0
+	MATERIAL
+		0.1 0.1 0.1
+# Prawa strona dodatnie z
+DISK
+	POSITION
+		18.22 6.8 9.26
+	COLOR
+		0.0 0.35 0.0
+	IN_RADIUS
+		0.524
+	OUT_RADIUS
+		1.2
+	SLICES
+		20
+	LOOPS
+		1
+	START_ANGLE
+		255.0
+	SWEEP_ANGLE
+		120.0
+	MATERIAL
+		0.1 0.1 0.1
+# Prawa strona ujemne z
+DISK
+	POSITION
+		18.22 6.8 -9.26
+	COLOR
+		0.0 0.35 0.0
+	IN_RADIUS
+		0.524
+	OUT_RADIUS
+		1.2
+	SLICES
+		20
+	LOOPS
+		1
+	START_ANGLE
+		163.0
+	SWEEP_ANGLE
+		120.0
+	MATERIAL
+		0.1 0.1 0.1
